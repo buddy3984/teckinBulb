@@ -1,6 +1,6 @@
 rule1 on power1#boot do color: 0,0,0,0,255 endon
 rule1 1
-rule2 on Power1#State=1 do color #ffffffff endon
+rule2 on Power1#State=1 do color: 0,0,0,0,255 endon
 rule2 1
 PowerOnState 0
 

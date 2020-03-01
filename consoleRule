@@ -6,7 +6,7 @@ Backlog SetOption0 0; SetOption36 1
 
 SetOption17 1
 
-
+SetOption59 1
 
 rule2 on Power1#State=1 do color: 0,0,0,0,255 endon
 

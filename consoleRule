@@ -13,11 +13,12 @@ rule2 on Power1#State=1 do color: 0,0,0,0,255 endon
 ### LOHAS STARTR COLOR
 rule1 on Power1#State=1 do color 255,255,36,100 endon
 
-rule2 1
+rule1 1
 
 PowerOnState 0
 
-
-
-
 grouptopic house/color
+
+rule2 on Power1#State=1 do publish led_hallway OFF endon on Power1#State=0 do publish led_hallway ON endon
+
+do publish cmnd/tasmota02/POWER 2 endon

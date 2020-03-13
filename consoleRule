@@ -3,9 +3,10 @@ rule1 1
 #######
 
 Backlog SetOption0 0; SetOption36 1
-
+##Enable decimal colors
 SetOption17 1
 
+#Enable tele topic reporting after a light state change
 SetOption59 1
 
 rule2 on Power1#State=1 do color: 0,0,0,0,255 endon
